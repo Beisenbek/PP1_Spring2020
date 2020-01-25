@@ -3,10 +3,10 @@
 using namespace std;
 
 int main(){
-
     int x;
     cin >> x;
-    cout << (x << 2) << endl; 
-
+    if(x % 6 == 0) cout << "ok";
+    else cout << "no";
+    
     return 0;
 }

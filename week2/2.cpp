@@ -6,7 +6,8 @@ int main(){
 
     int x;
     cin >> x;
-    cout << (x << 2) << endl; 
+    int y = (x >> 2);
+    cout <<  y << endl; 
 
     return 0;
 }
