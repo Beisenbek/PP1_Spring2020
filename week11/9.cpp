@@ -14,6 +14,7 @@ bool isEven(int v){
 int main(){
 
     int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14};
+    int n = sizeof(a) / sizeof(int);
     int res = count_if(a, a + n, isEven);
 
     cout << res << endl;
